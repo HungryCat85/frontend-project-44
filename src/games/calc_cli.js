@@ -13,14 +13,14 @@ export default () => {
     let rAns;
     switch (indexS) {
       case 0: rAns = a + b;
-              break;
+        break;
       case 1: rAns = a - b;
-              break;
+        break;
       case 2: rAns = a * b;
-              break;
+        break;
       default: break;
     }
     if (!analiz(ans, rAns)) return false;
   }
   return true;
-}
+};
