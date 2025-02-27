@@ -4,3 +4,4 @@ node_modules
 jsconfig.json
 eslint.config.js
 bak
+*.cast
