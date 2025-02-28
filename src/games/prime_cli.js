@@ -3,7 +3,7 @@ import { question, analiz } from '../index.js';
 
 // Проверка на простое число
 function isPrime(num) {
-  for (let i = 2; i < num; i += 1){
+  for (let i = 2; i < num; i += 1) {
     if (num % i === 0) return false;
   }
   return num !== 1;
@@ -11,7 +11,7 @@ function isPrime(num) {
 
 export default () => {
   console.log('Answer "yes" if given number is prime. Otherwise answer "no".');
- 
+
   for (let i = 0; i <= 2; i += 1) {
     const num = _.random(1, 100);
     const ans = question(num);
