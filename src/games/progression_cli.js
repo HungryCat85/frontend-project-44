@@ -17,7 +17,7 @@ export default () => {
     const rAns = arr[index];
     arr[index] = '..';
 
-    const expr = arr.join(' ')// `${arr}`;
+    const expr = arr.join(' '); // `${arr}`;
     const ans = question(expr);
     if (!analiz(ans, rAns)) return false;
   }

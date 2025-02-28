@@ -7,7 +7,7 @@ const question = (num) => {
 };
 
 const analiz = (ans, rAns) => {
-  if (ans != rAns) {
+  if (ans.toString() !== rAns.toString()) {
     console.log(`'${ans}' is wrong answer ;(. Correct answer was '${rAns}'.`);
     return false;
   }
